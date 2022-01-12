@@ -1,0 +1,50 @@
+  /* ----------registration file stylesheet------------ */
+
+  .registration_active{
+    color: #686868 !important;
+    border-right-width: thick !important;
+  }
+  .left-section{
+    width: 72%;
+    height: 100%;
+    margin: 1% .2% 1% .2%;
+    padding: 1% .2%;
+    border-left: 2px solid #f3f5fa;
+  }
+  section .row{
+    width: 100%;
+    margin: 1% .2% 1% 22%;
+  }
+  input.form-control{
+    width: 80% !important;
+  }
+  @media (max-width: 576px) {
+      .left-section{
+        margin: 8% .2% 1% .2% !important;
+      }
+      section .row{
+        width: 100% !important;
+        margin: 1% .2% 1% 1% !important;
+      }
+      #side-section{
+        display: none;
+      }
+      h3#left-section-ttl{
+        font-size: 124.5% !important;
+    }
+  }
+    @media (max-width: 768px) {
+        .left-section{
+          margin: 1.4% 1% 1% .2% !important;
+        }
+        section .row{
+          width: 100%;
+          margin: 1% .2% 1% 26%;
+        }
+        #side-section{
+          display: none;
+        }
+        h3#left-section-ttl{
+          font-size: 124.5% !important;
+      }
+    }

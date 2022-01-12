@@ -1,0 +1,92 @@
+
+#power_control_fchart,
+#irrgtn_control_fchart,
+#clear_irrgtn_btn,
+#clear_refillin_btn,
+#clear_alarm_btn{
+  display: none;
+}
+.tbl_display table{
+  border: none !important;
+  overflow-x: scroll !important;
+}
+tr.tbl_header th{
+  font-weight: bold;
+  font-size: 118.5%;
+  padding: 2% 4%;
+  color: #fff;
+  /* background-color: #8b0000 !important; */
+}
+tr td.process_lbl{
+  text-align: left !important;
+  border: 1px solid #f2f2f2 !important;
+}
+tr td{
+  padding: 2% 4%;
+  border: 1px solid #f2f2f2 !important;
+}
+tr{
+  border: none !important;
+}
+label.btn{
+  padding: 2% 4%;
+  width: 60%;
+}
+label.btn_clear{
+  background-color: #8b0000 !important;
+}
+td input{
+  width: 80% !important;
+  background-color: #f2f2f2;
+}
+td input:hover{
+  background-color: #ddd;
+}
+td input:active{
+  background-color: #f2f2f2;
+}
+th, td.process_lbl{
+  font-weight: bolder;
+}
+.scores_submit{
+  text-align: center;
+}
+.scores_submit .btn{
+  width: 30%;
+}
+.form_field input{
+  padding: 1% 2%;
+}
+.id_ttl_sctn{
+  width: 10%;
+}
+.subject_ttl_sctn,
+.c_code_ttl_sctn{
+  width: 30%;
+}
+.u_code_ttl_sctn{
+  width: 40%;
+}
+
+@media (max-width: 576px) {
+   label.btn{
+     width: 100%;
+   }
+   .tbl_display{
+     overflow-x: scroll;
+   }
+   td input{
+     width: 100% !important;
+   }
+ }
+@media (max-width: 769px) {
+   label.btn{
+     width: 80%;
+   }
+   .tbl_display{
+     overflow-x: scroll;
+   }
+   td input{
+     width: 100% !important;
+   }
+ }

@@ -1,0 +1,132 @@
+  /* ---------contact_us file stylesheet--------
+  -Also serve main pages sections--------------- */
+
+  a.logo_ttl{
+    font-size: 162.7% !important;
+    font-family: 'Oleo Script', 'Merienda One', Helvetica, sans-serif;
+    text-shadow: .5px .5px .5px #777;
+    color: red !important;
+    font-weight:bolder;
+    bottom: 0;
+    left: 0;
+    transform: scaleY(1.2);
+  }
+  .content-sctn {
+    width: 100%;
+    height: 100%;
+    padding: 2% 1%;
+    background: #fbfcfc;
+    overflow: hidden;
+    z-index: 1;
+  }
+  a.icon-long-arrow-right:hover{
+    color: #b6c9cb !important;
+  }
+  form#cat_sctn{
+    text-align: center;
+    margin: 30% 2% 1%;
+    position: relative;
+  }
+  form#cat_sctn ul li{
+    display: inline-block;
+    line-height: 12px;
+    margin: 0;
+    padding: 0 8px;
+    list-style: none;
+  }
+  button.btn{
+    color: #f2f2f2;
+    font-weight: bold;
+    border-radius: 12px;
+  }
+  button.btn:hover{
+    color: #999;
+  }
+  button.btn:active{
+    color: #f2f2f2;
+  }
+  label.time_length_directive{
+    font-size: 87.5%;
+    font-weight: normal;
+    color: #333300;
+  }
+  select#surf_time_lngth{
+    width: 30% !important;
+    color: #111;
+    font-weight: 400;
+    background-color:#c4e0e5;
+    border: none;
+  }
+  input#surf_time_lngth:focus{
+    border-bottom: 1px solid #252525;
+    transition: .5s ease;
+  }
+  .left-section{
+    margin-top: 1% !important;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+  @media (max-width: 576px) {
+    .container {
+      width: 100% !important;
+      }
+      .left-section{
+        width: 100% !important;
+      }
+      footer .container-fluid{
+        text-align: center;
+      }
+      .input-sctn{
+        padding: 18% 2% 1% 14%;
+      }
+      .left-section{
+        margin-top: 0 !important;
+      }
+      .definition-sctn{
+        width: 100%;
+        padding: 2% 1%;
+      }
+      ul.definitions{
+        width: 100%;
+      }
+      .img_wrap{
+        width: 100%;
+        float: right;
+      }
+      .img_wrap img{
+        width: 100% !important;
+        height: 100% !important;
+        overflow: hidden;
+      }
+    }
+  @media (max-width: 768px) {
+    .container {
+      width: 100% !important;
+      }
+      .left-section{
+        width: 100% !important;
+      }
+      .left-section{
+        margin-top: 0 !important;
+      }
+      @media (min-width: 768px) {
+        .col-lg-5{
+          width: 50% !important;
+        }
+        .col-lg-7{
+          width: 50% !important;
+        }
+      }
+    }
+  @media (max-width: 992px) {
+    .container {
+      width: 100% !important;
+      }
+    }
+  @media (max-width: 1200px) {
+    .container {
+      width: 100% !important;
+      }
+    }

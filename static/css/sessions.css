@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.left-section{
+  width: 74%;
+  height: 100%;
+  float: left;
+  margin: 1% .2% 1% .2%;
+  padding: 1% .2%;
+  border-left: 2px solid #f3f5fa;
+}
+.right-section{
+  width: 22%;
+  height: auto;
+  float: right;
+  margin: 1% .2% 1% 2%;
+  /* border: 1px solid #ccc; */
+}
+.left-section h3, .session1_report_sesction h3, #login-section h3{
+  font-family: "Jost", sans-serif !important;
+  font-size: 132.5%;
+  font-weight: 500;
+  color: #f3f5fa;
+  padding: 2% 4%;
+  background-color: #537895;
+}
+.message-system, .timer-section{
+  width: 100%;
+  border: 1px solid #ddd;
+}
+.message-system{
+  overflow-y: scroll;
+  height: 60%;
+}
+.message-system p, .timer-section p{
+  font-family: "Jost", sans-serif !important;
+  padding: 2% 4%;
+}
+.message-system h4, .timer-section h4, .partners-section h4{
+  font-family: "Jost", sans-serif !important;
+  font-size: 122.5%;
+  font-weight: 500;
+  color: #f3f5fa;
+  padding: 2% 4%;
+  background-color: #686868;
+}
+.qstn-section{
+  margin: 2% 2%;
+  padding: 1% 2%;
+}
+.ans-section{
+  margin: 2% 2%;
+  padding: 1% 2%;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-radius: 8px;
+}
+.partners-section{
+  margin: .2% 2%;
+  padding: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: none;
+}
+.seperator hr{
+  width: 90%;
+  margin: 4% 2% 2%;
+  padding: 1% 2%;
+  color: #ddd;
+}
+.correct-ans-section{
+  margin: 2% 2%;
+  padding: 1% 2%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+#correct-q1_ans-section, #correct-q11_ans-section,
+#correct-q2_ans-section, #correct-q12_ans-section,
+#correct-q3_ans-section, #correct-q13_ans-section,
+#correct-q4_ans-section, #correct-q14_ans-section,
+#correct-q5_ans-section, #correct-q15_ans-section,
+#correct-q6_ans-section, #correct-q16_ans-section,
+#correct-q7_ans-section, #correct-q17_ans-section,
+#correct-q8_ans-section, #correct-q18_ans-section,
+#correct-q9_ans-section, #correct-q19_ans-section,
+#correct-q10_ans-section, #correct-q20_ans-section{
+  display: none;
+}
+#q2_ans-section, #qstn2-section, #q12_ans-section, #qstn12-section,
+#q3_ans-section, #qstn3-section, #q13_ans-section, #qstn13-section,
+#q4_ans-section, #qstn4-section, #q14_ans-section, #qstn14-section,
+#q5_ans-section, #qstn5-section, #q15_ans-section, #qstn15-section,
+#q6_ans-section, #qstn6-section, #q16_ans-section, #qstn16-section,
+#q7_ans-section, #qstn7-section, #q17_ans-section, #qstn17-section,
+#q8_ans-section, #qstn8-section, #q18_ans-section, #qstn18-section,
+#q9_ans-section, #qstn9-section, #q19_ans-section, #qstn19-section,
+#q10_ans-section, #qstn10-section, #q20_ans-section, #qstn20-section,
+#session1_report_section, #session2_report_section{
+  display: none;
+}
+.ans-section ul, .correct-ans-section ul, .session1_report_section ul, .session2_report_section ul{
+  display: block;
+  margin: 1% 2%;
+  padding: auto;
+}
+.ans-section ul li, .correct-ans-section ul li, .session1_report_section ul li, .session2_report_section ul li{
+  font-family: "Jost", sans-serif;
+  font-size: 98.5% !important;
+  font-weight: normal;
+  color: #666;
+  list-style: none;
+  padding: 1% 2%;
+}
+.ans-section ul li{
+  color: green;
+}
+input#qstn-ans, input#no-passed, input#ans-value{
+  width: 30% !important;
+  padding: 1% 2%;
+  border-radius: 8px;
+  border: none;
+  border: 1px solid #ddd;
+  color: green;
+}
+input#session1_score, input#position, input#no_of_participants{
+  width: 30% !important;
+  padding: 1% 2%;
+  border-radius: 8px;
+  border: none;
+  border: 1px solid #ddd;
+  color: green;
+}
+input#ans-value, input#remarks{
+  width: auto !important;
+}
+button.ans-btn{
+  width: 30%;
+  background-color: #537895;
+  color: #fff;
+  border-radius: 8px;
+  margin: 1% 2%;
+  padding: 1% 2%;
+  float: right;
+}
+#login-section{
+  display: none;
+}
+.timer-section input, .timer-section2 input{
+  background-color: #fff;
+  display: inline-flex;
+  font-size: 50px;
+  margin: 0;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  font-weight: bolder;
+  color: #686868;
+}
+.timer2-section{
+  display: none;
+}
